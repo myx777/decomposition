@@ -1,0 +1,17 @@
+{
+  "exclude": ["node_modules", "dist", "build", "temp", "coverage", ".vite"],
+  "includeDeclarations": true,
+  "externalPattern": "**/*.js",
+  "excludeExternals": true,
+  "excludeNotExported": true,
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "mode": "file",
+  "out": "docs",
+  "target": "ES6",
+  "moduleResolution": "node",
+  "jsx": "react",
+  "module": "commonjs",
+  "allowSyntheticDefaultImports": true,
+  "esModuleInterop": true
+}
